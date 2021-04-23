@@ -63,7 +63,6 @@ export default {
 				overflow: hidden;
 				text-overflow: ellipsis;
 				white-space: nowrap;
-				font-weight: bold;
 			}
 			&_date{
 				font-size: 24rpx;

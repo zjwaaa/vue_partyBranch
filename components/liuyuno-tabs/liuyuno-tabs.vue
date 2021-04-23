@@ -224,7 +224,8 @@
 						padding: 0 30rpx;
 						position: relative;
 						text-align: center;
-						
+						font-size: 28rpx;
+						font-weight: bold;
 						color: #333;
 						&._active {
 							color: #e54d42;
