@@ -1,7 +1,7 @@
 <template>
-	<div class="dyfc">
+	<view class="dyfc">
 		党员风采
-	</div>
+	</view>
 </template>
 
 <script>

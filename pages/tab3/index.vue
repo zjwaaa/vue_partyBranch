@@ -85,6 +85,8 @@ export default {
 <style lang="scss" scoped>
 .content_tab3{
 	position: relative;
+	width: 100%;
+	height: 100%;
 	.temp{
 		height: 90rpx;
 		width: 100%;
@@ -95,6 +97,12 @@ export default {
 		left: 0;
 		right: 0;
 		background-color: #FFFFFF;
+	}
+	.mainContent{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 20rpx;
+		background: #F7F6F6;
 	}
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-	<div class="gzjh">
+	<view class="gzjh">
 		重点工作计划
-	</div>
+	</view>
 </template>
 
 <script>

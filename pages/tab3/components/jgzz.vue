@@ -1,7 +1,7 @@
 <template>
-	<div class="jgzz">
+	<view class="jgzz">
 		机构组织
-	</div>
+	</view>
 </template>
 
 <script>

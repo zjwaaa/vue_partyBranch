@@ -29,6 +29,12 @@
 			"style": {
 				"navigationBarTitleText": "个人信息"
 			}
+		},
+		{
+			"path":"pages/tab3/detail",
+			"style": {
+				"navigationBarTitleText": "支部整体工作"
+			}
 		}
 	],
 	"globalStyle": {
