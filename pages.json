@@ -1,0 +1,74 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "基础工作"
+			}
+		},
+		{
+			"path": "pages/tab2/index",
+			"style": {
+				"navigationBarTitleText": "党风廉政"
+			}
+		},
+		{
+			"path": "pages/tab3/index",
+			"style": {
+				"navigationBarTitleText": "支部工作"
+			}
+		},
+		{
+			"path": "pages/tab4/index",
+			"style": {
+				"navigationBarTitleText": "拷问讲解"
+			}			
+		},
+		{
+			"path": "pages/tab5/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#ffffff",
+		"navigationBarTitleText": "数字化党支部",
+		"navigationBarBackgroundColor": "#C00000",
+		"backgroundColor": "#C00000"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#FC5C82",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"基础工作",
+			"iconPath":"static/tabbar/bill-icon-type-2.png",
+			"selectedIconPath":"static/tabbar/bill-icon-type-2.png"
+		},{
+			"pagePath":"pages/tab2/index",
+			"text":"党风廉政",
+			"iconPath":"static/tabbar/bill-icon-type-2.png",
+			"selectedIconPath":"static/tabbar/bill-icon-type-2.png"
+		},{
+			"pagePath":"pages/tab3/index",
+			"text":"支部工作",
+			"iconPath":"static/tabbar/bill-icon-type-2.png",
+			"selectedIconPath":"static/tabbar/bill-icon-type-2.png"
+		},{
+			"pagePath":"pages/tab4/index",
+			"text":"拷问讲解",
+			"iconPath":"static/tabbar/bill-icon-type-2.png",
+			"selectedIconPath":"static/tabbar/bill-icon-type-2.png"
+		},
+		{
+			"pagePath":"pages/tab5/index",
+			"text":"个人信息",
+			"iconPath":"static/tabbar/bill-icon-type-2.png",
+			"selectedIconPath":"static/tabbar/bill-icon-type-2.png"		
+		}
+	]
+  }
+}
