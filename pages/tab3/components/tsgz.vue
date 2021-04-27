@@ -15,14 +15,19 @@
 export default {
 	data(){
 		return {
-			dataArray: [{ title: '组织开展“蚂蚁森林”植树活动', date: '2020.04.23', id: 0 }, 
-						{ title: '支部骨干牵头省信通重点工作任务', date: '2020.04.24', id: 1 },
-						{ title: '党群师徒合同签订', date: '2020.04.25', id: 2 },
-						{ title: '党群共防共守防山火承诺签订', date: '2020.04.26', id: 3 },
-						{ title: '支部骨干考察盐源电商发展状况', date: '2020.04.27', id: 4 },
-						{ title: '党员领办重点工作任务', date: '2020.04.28', id: 5 },
-						{ title: '支部组织外委产商签订防山火承诺', date: '2020.04.29', id: 6 },
-						{ title: '创新现场作业风险管控', date: '2020.04.30', id: 7 }]
+			dataArray: [{ title: '疫情复工监测', date: '2020.04.23' }, 
+						{ title: '支部骨干牵头省信通重点工作任务', date: '2020.04.24' },
+						{ title: '党群师徒合同签订', date: '2020.04.25' },
+						{ title: '党群共防共守防山火承诺签订', date: '2020.04.26' },
+						{ title: '支部骨干考察盐源电商发展状况', date: '2020.04.27' },
+						{ title: '党员领办重点工作任务', date: '2020.04.28' },
+						{ title: '支部组织外委厂商签订防山火承诺', date: '2020.04.29' },
+						{ title: '创新现场作业风险管控', date: '2020.04.30' },
+						{ title: '履职责任分解', date: '2020.04.30' },
+						{ title: '开展党建+安全生产活动 隐患排查治理', date: '2020.04.30' },
+						{ title: '组织扶贫日自愿捐赠活动', date: '2020.04.30' },
+						{ title: '不忘初心继续前进', date: '2020.04.30' },
+						{ title: '党员发展', date: '2020.04.30' }]
 		}
 	}
 }
@@ -32,11 +37,11 @@ export default {
 <style lang="scss" scoped>
 .tsgz{
 	width: 100%;
-	height: 100%;
+	min-height: 100%;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	overflow: scroll;
+	overflow-y: scroll;
 	&_part{
 		box-sizing: border-box;
 		overflow: hidden;

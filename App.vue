@@ -99,7 +99,7 @@ export default {
 
 <style lang="scss" scoped>
 page {
-	background-color: $uni-bg-color;
+	// background-color: $uni-bg-color;
 	letter-spacing: 3rpx;
 }
 .content {
