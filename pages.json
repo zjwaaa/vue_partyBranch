@@ -31,18 +31,31 @@
 			}
 		},
 		{
-			"path":"pages/tab3/detail",
-			"style": {
-				"navigationBarTitleText": "支部整体工作"
-			}
-		},
-		{
 			"path":"pages/login/index",
 			"style": {
 				"navigationBarTitleText":"登陆"
 			}
 		}
 	],
+	"subPackages": [
+		{
+			"root": "pageTab3",
+			"pages": [
+				{
+					"path": "detail",
+					"style": {
+						"navigationBarTitleText": "支部整体工作"
+					}
+				}
+			]
+		}
+	],
+	"preloadRule": { // 分包预加载
+		"pages/tab3/index": {
+			"network": "all",
+			"packages": ["pageTab3"]
+		}
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "#ffffff",
 		"navigationBarTitleText": "数字化党支部",

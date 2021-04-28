@@ -1,11 +1,9 @@
 <template>
 	<view class="tabtDetail">
 		<view class="tabtDetail_title">{{ title }}</view>
-		<view class="tabtDetail_subtitle">疫情复工复产期间，支部党员带领团青积极开展疫情保障、预防宣传、复工复产监测等重要工作，党员团青先后发挥先锋模范作用共计354人次。
-		</view>
+		<view class="tabtDetail_subtitle">{{ subTitle }}</view>
 		<view class="imgCont">
-			<img src="/static/zbDetail/11.png" alt="">
-			<img src="/static/zbDetail/12.png" alt="">
+			<img :src="`/pageTab3/static/${el}.png`" alt="" v-for="(el, idx) in imgArr" :key="idx" mode="widthFix">
 		</view>
 	</view>
 </template>
@@ -15,13 +13,22 @@
 export default {
 	data(){
 		return {
-			title: ''
+			title: '',
+			subTitle: '',
+			imgArr: []
 		}
 	},
 	onLoad(val){
-		const { title = '' } = val;
+		const option = JSON.parse(decodeURIComponent(val.el))
+		console.log(option)
+		const { title = '', subTitle = '', imgArr = [] } = option;
 		this.title = title;
+		this.subTitle = subTitle;
+		this.imgArr = imgArr;
 	},
+	methods: {
+
+	}
 }
 
 </script>

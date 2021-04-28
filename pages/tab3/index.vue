@@ -10,7 +10,6 @@
 			<Tsgz v-if="tabIdx == 2"></Tsgz>
 			<Gzjh v-if="tabIdx == 3"></Gzjh>
 		</view>
-		<!-- <treeTuY :serverData="serverData" @dataChange="change"></treeTuY> -->
 	</view>
 </template>
 
