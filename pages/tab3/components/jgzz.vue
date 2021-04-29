@@ -1,29 +1,29 @@
 <template>
 	<view class="jgzz">
 		<view class="jgzz_top">
-			<view>互联网党支部于<text class="sty_red">2019年7月2日</text>更名成立，现有正式党员<text class="numstyle">13</text>人，预备党员<text class="numstyle">1</text>人</view>
+			<view>互联网党支部于<text class="sty_red">{{ jgzzData.date }}</text>更名成立，现有正式党员<text class="numstyle">{{ jgzzData.zsdyNum }}</text>人，预备党员<text class="numstyle">{{ jgzzData.ybdyNum }}</text>人</view>
 			<view class="jgzz_top_ava">
 				<view class="part">
 					<img src="/static/ava.png" alt="">
 					<view class="detail">
 						<text>正式党员（人）</text>
-						<text class="num">13</text>
+						<text class="num">{{ jgzzData.zsdyNum }}</text>
 					</view>
 				</view>
 				<view class="part ava2">
 					<img src="/static/ava2.png" alt="">
 					<view class="detail">
 						<text>预备党员（人）</text>
-						<text class="num">1</text>
+						<text class="num">{{ jgzzData.ybdyNum }}</text>
 					</view>
 				</view>
 			</view>
 			<view class="ms">
 				<view class="ms_lef">
-					<text>支部书记<text class="numstyle">1</text>（人）</text>
-					<text>支部平均年龄<text class="numstyle">34.7</text>岁</text>
+					<text>支部书记<text class="numstyle">{{ jgzzData.zbsjNum }}</text>（人）</text>
+					<text>支部平均年龄<text class="numstyle">{{jgzzData.pjnl }}</text>岁</text>
 				</view>
-				<text>支委<text class="numstyle">4</text>（人）</text>
+				<text>支委<text class="numstyle">{{ jgzzData.zwNum }}</text>（人）</text>
 			</view>
 		</view>
 		<view class="jgzz_bottom">
@@ -34,6 +34,24 @@
 </template>
 
 <script>
+	
+import configData from "@/mixins/configData.js"
+	
+export default {
+	data(){
+		return {
+			
+		}
+	},
+	mixins: [ configData ],
+	computed: {
+		jgzzData(){
+			const { jgzz = {} } = this.total.zbgz;
+			return jgzz
+		}
+	}
+}	
+	
 </script>
 
 <style lang="scss" scoped>
