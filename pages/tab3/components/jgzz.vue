@@ -72,6 +72,7 @@ export default {
 		border-radius: 15rpx;
 		box-shadow: 0rpx 0rpx 1rpx #ccc;
 		line-height: 50rpx;
+		font-size: 26rpx;
 		.sty_red{
 			color: #C00000;
 		}
@@ -87,7 +88,7 @@ export default {
 					margin-right: 10rpx;
 				}		
 				.detail{
-					font-size: 28rpx;
+					font-size: 26rpx;
 					display: flex;
 					flex-direction: column;
 					.num{
@@ -106,6 +107,7 @@ export default {
 			&_lef{
 				display: flex;
 				flex-direction: column;
+				font-size: 26rpx;
 				> text:first-child{
 					margin-bottom: 20rpx;
 				}

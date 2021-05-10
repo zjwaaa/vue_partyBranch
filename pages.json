@@ -1,6 +1,16 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
+			"path":"pages/login/index",
+			"style": {
+				"navigationBarTitleText":"登陆"
+			}
+		},{
+			"path": "pages/tab3/index",
+			"style": {
+				"navigationBarTitleText": "支部工作"
+			}
+		},{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "基础工作"
@@ -13,12 +23,6 @@
 			}
 		},
 		{
-			"path": "pages/tab3/index",
-			"style": {
-				"navigationBarTitleText": "支部工作"
-			}
-		},
-		{
 			"path": "pages/tab4/index",
 			"style": {
 				"navigationBarTitleText": "拷问讲解"
@@ -28,12 +32,6 @@
 			"path": "pages/tab5/index",
 			"style": {
 				"navigationBarTitleText": "个人信息"
-			}
-		},
-		{
-			"path":"pages/login/index",
-			"style": {
-				"navigationBarTitleText":"登陆"
 			}
 		}
 	],

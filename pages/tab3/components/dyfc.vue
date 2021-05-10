@@ -59,6 +59,7 @@ export default {
 		}
 		&_des{
 			margin-top: 10rpx;
+			font-size: 26rpx;
 		}
 	}
 }

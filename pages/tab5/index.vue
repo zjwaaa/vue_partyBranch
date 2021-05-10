@@ -1,7 +1,8 @@
 <template>
 	<view class="content">
 		<view class="text-area">
-			<text class="title">个人信息</text>
+			<open-data class="avatar-img"  type="userAvatarUrl"></open-data>
+			<open-data class="mine-user_info-text" default-text="柠檬用户" type="userNickName"></open-data>
 		</view>
 	</view>
 </template>

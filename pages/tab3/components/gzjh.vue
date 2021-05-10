@@ -43,7 +43,7 @@ export default {
 		display: flex;
 		align-items: center;
 		margin-bottom: 25rpx;
-		box-shadow: 0rpx 0rpx 1rpx #ccc;
+		box-shadow: 0rpx 0rpx 2rpx #ccc;
 		> img{
 			width: 90rpx;
 			height: 90rpx;
@@ -60,6 +60,7 @@ export default {
 				overflow: hidden;
 				text-overflow: ellipsis;
 				white-space: nowrap;
+				font-size: 26rpx;
 			}
 			&_date{
 				font-size: 24rpx;

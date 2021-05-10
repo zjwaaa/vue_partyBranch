@@ -1,9 +1,6 @@
 <template>
 	<view>
-			<button 
-				open-type="getPhoneNumber" 
-				@getphonenumber="getphonenumber" 
-				class="weui-btn">
+			<button @click="wxgetUserInfo">
 					<icon class="wx-logo"></icon>
 					<text>微信用户一键登录</text>
 				</button>
@@ -14,8 +11,16 @@
 	
 export default {
 	methods: {
-		getphonenumber(e){
-			console.log(e)
+		wxgetUserInfo(e){
+			uni.getUserProfile({
+				desc:'登录',
+				success(res){
+					console.log(res)
+					uni.switchTab({
+						url: '/pages/tab5/index'
+					})
+				}
+			})
 		}
 	}
 }	
