@@ -1,12 +1,12 @@
 <template>
 	<view class="gzjh">
-		<view class="gzjh_part" v-for="(el, idx) in gzjhData.dataArray" :key="idx" >
+		<navigator class="gzjh_part" v-for="(el, idx) in gzjhData.dataArray" :key="idx" :url="`/pageTab3/detail?el=${encodeURIComponent(JSON.stringify(el))}`">
 			<img src="/static/data.png" alt="">
 			<view class="gzjh_part_cont">
 				<text class="gzjh_part_cont_title">{{ el.title }}</text>
 				<text class="gzjh_part_cont_date">{{ el.date }}</text>
 			</view>
-		</view>
+		</navigator>
 	</view>
 </template>
 

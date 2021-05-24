@@ -17,7 +17,7 @@ export default {
 				success(res){
 					console.log(res)
 					uni.switchTab({
-						url: '/pages/tab5/index'
+						url: '/pages/index/index'
 					})
 				}
 			})

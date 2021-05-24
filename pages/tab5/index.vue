@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="content_tab5">
 		<view class="text-area">
 			<open-data class="avatar-img"  type="userAvatarUrl"></open-data>
 			<open-data class="mine-user_info-text" default-text="柠檬用户" type="userNickName"></open-data>
@@ -23,30 +23,24 @@
 	}
 </script>
 
-<style>
-	.content {
+<style lang="scss">
+.content_tab5{
+	padding: 20rpx;
+	.text-area{
 		display: flex;
-		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		padding: 20rpx;
+		border-bottom: 2rpx solid #ececec;
+		.avatar-img{
+			width: 150rpx;
+			height: 150rpx;
+			margin-right: 20rpx;
+		}
+		.mine-user_info-text{
+			font-size: 34rpx;
+			font-weight: bold;
+			letter-spacing: 5rpx;
+		}
 	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
+}
 </style>

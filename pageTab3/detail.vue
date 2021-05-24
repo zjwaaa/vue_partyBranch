@@ -43,6 +43,7 @@ export default {
 		font-size: 38rpx;
 		font-weight: bold;
 		margin: 0 auto;
+		text-align: center;
 	}
 	&_subtitle{
 		font-size: 30rpx;

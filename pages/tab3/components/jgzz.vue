@@ -25,10 +25,18 @@
 				</view>
 				<text>支委<text class="numstyle">{{ jgzzData.zwNum }}</text>（人）</text>
 			</view>
+			<view class="xl">
+				<text>研究生<text class="numstyle">{{ jgzzData.yjsNum }}</text>（人）</text>
+				<text>本科<text class="numstyle">{{ jgzzData.bkNum }}</text>（人）</text>
+				<text>大专<text class="numstyle">{{ jgzzData.dzNum }}</text>（人）</text>
+			</view>
 		</view>
 		<view class="jgzz_bottom">
-			<img src="/static/jg01.png" alt="">
-			<img src="/static/jg02.png" alt="">
+			<img src="/static/fc01.png" alt="">
+			<view class="jgzz_bottom_des">
+				<text>党员：<text class="numstyle">{{ jgzzData.zsdyNum }}</text>（人）</text>
+				<text class="ml">预备党员：<text class="numstyle">{{ jgzzData.ybdyNum }}</text>（人）</text>
+			</view>
 		</view>
 	</view>
 </template>
@@ -113,6 +121,11 @@ export default {
 				}
 			}
 		}
+		.xl{
+			margin-top: 20rpx;
+			display: flex;
+			justify-content: space-between;
+		}
 	}
 	&_bottom{
 		background: #FFFFFF;
@@ -123,7 +136,14 @@ export default {
 		margin-top: 35rpx;
 		> img{
 			width: 100%;
-			height: 250rpx;
+			height: 350rpx;
+		}
+		&_des{
+			font-size: 26rpx;
+			margin-top: 25rpx;
+			.ml{
+				margin-left: 50rpx;
+			}
 		}
 	}
 }
