@@ -1,8 +1,13 @@
 <template>
-	<view class="dtDetail">
-		<view class="part" v-for="(el, idx) in answer" :key="idx" @click="showAnswer(el)">
-			<text>{{ idx + 1 }}</text>
-			<view :class="[ el.fldAnswer == el.rightAnswer && 'right' ]">{{ el.fldAnswer }}</view>
+	<view class="all">
+		<view class="score">
+			{{ score || 0 }}
+		</view>
+		<view class="dtDetail">
+			<view class="part" v-for="(el, idx) in answer" :key="idx" @click="showAnswer(el)">
+				<text>{{ idx + 1 }}</text>
+				<view :class="[ el.fldAnswer == el.rightAnswer && 'right' ]">{{ el.fldAnswer }}</view>
+			</view>
 		</view>
 	</view>
 </template>
@@ -14,13 +19,22 @@
 			return {
 				answer: [
 					
-				]
+				],
+				score: null
 			}
 		},
 		onLoad(val){
 			const answer = JSON.parse(decodeURIComponent(val.answer))
 			console.log(answer)
 			this.answer = answer;
+			if(Array.isArray(answer) && answer.length > 0){
+				answer.forEach(el => {
+					if(el.fldAnswer == el.rightAnswer){
+						this.score += 10;
+					}
+				})
+			}
+			uni.setStorageSync('fs', this.score);
 		},
 		methods:{
 			showAnswer(el){
@@ -38,7 +52,7 @@
 	
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 	.dtDetail{
 		padding: 35rpx;
 		display: flex;
@@ -67,5 +81,12 @@
 				background: green
 			}
 		}
+	}
+	.score{
+		text-align: center;
+		font-size: 80rpx;
+		color: red;
+		margin: 30rpx 0;
+		letter-spacing: 10rpx;
 	}
 </style>

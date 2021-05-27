@@ -234,8 +234,8 @@ export default {
 		margin-top: 35rpx;
 	}
 	.yeah{
-		width: 32rpx;
-		height: 32rpx;
+		width: 25rpx;
+		height: 25rpx;
 	}
 }
 </style>

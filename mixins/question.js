@@ -1434,6 +1434,690 @@ export default {
 						}
 					]
 				},
+				{
+					"questionID": 69,
+					"fldName": "中央决定，党的十七大代表选举工作从去年11月开始，到2007年6月底前结束。中央强调，在十七大代表选举工作中要认真贯彻执行民主集中制，充分发扬党内民主，把（  ）贯穿于选举工作的全过程。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "发扬民主、走群众路线",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "从群众中来，到群众中去",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "发扬民主",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 70,
+					"fldName": "党的（  ）科学地概括了建设有中国特色社会主义的经济、政治、文化的基本目标和基本政策，构成党在社会主义初级阶段的基本纲领。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "十三大",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "十四大",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "十五大",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 71,
+					"fldName": "党的建设的四项基本要求是：坚持党的基本路线，坚持解放思想、实事求是，坚持（ C ），坚持民主集中制。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "廉政建设",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "群众路线",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "全心全意为人民服务",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 72,
+					"fldName": "中国共产党党员是中国工人阶级的有（  ）觉悟的先锋战士。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "社会主义",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "共产主义",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "政治思想",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 73,
+					"fldName": "党章规定，党的全国代表大会每（  ）举行一次，由中央委员会召集。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "三年",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "四年",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "五年",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 74,
+					"fldName": "党章规定，企业、农村、机关、学校、科研院所、街道、人民解放军连队和其他基层单位，凡有正式党员（  ）以上的，都应当成立党的基层组织。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "三人",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "五人",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "七人",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 75,
+					"fldName": "党的基层组织是党在社会基层组织中的战斗堡垒，是党的（  ）和战斗力的基础。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "中心工作",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "全部工作",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "主要任务",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 76,
+					"fldName": "党的组织对违反党的纪律的党员，应当本着（  ）的精神，按照错误性质和情节轻重，给以批评、教育直至纪律处分。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "惩前毖后，治病救人",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "批评从严，处理从宽",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "批评与自我批评相结合",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 77,
+					"fldName": "（  ）第一次明确提出了反帝反封建的民主革命纲领。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "中共一大",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "中共二大",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "中共三大",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 78,
+					"fldName": "人民解放军发动渡江战役，于1949年4月23日占领（  ），宣告延续22年的国民党反动统治的覆灭。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "北平",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "上海",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "南京",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 79,
+					"fldName": "党的十七大在我党历史上第一次郑重地鲜明地完整地提出了高举（  ） 伟大旗帜。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'D',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "马克思主义",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "毛泽东思想",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "邓小平发展理论",
+							"fldOptionIndex": 'C'
+						},
+						{
+							"fldOptionText": "中国特色社会主义",
+							"fldOptionIndex": 'D'
+						}
+					]
+				},
+				{
+					"questionID": 80,
+					"fldName": "1921年7月23日，中国共产党第一次全国代表大会在上海举行，8月2日移至浙江嘉兴南湖继续举行并胜利闭幕。在南湖会议上，通过了中国共产党（  ），选举产生了党的领导机构——中央局，宣告了中国共产党的正式成立。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "第一个章程",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "第一个纲领",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "第一个纲领和第一个决议",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 81,
+					"fldName": "毛泽东领导的秋收起义军进攻长沙受挫后，起义部队到（  ）地区建立革命根据地。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "海陆丰",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "鄂豫皖",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "井冈山",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 82,
+					"fldName": "1939年7月7日，在华北联合大学举行的开学典礼上，毛泽东首次将（  ）称之为中国革命中战胜敌人的三个法宝。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "政治民主、军事民主、经济民主",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "统一战线、武装斗争、党的建设",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "理论联系实际、密切联系群众、批评和自我批评",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 83,
+					"fldName": "毛泽东思想在中国共产党（  ）全国代表大会被正式确认为党的指导思想，并写入党章。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "第六次",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "第七次",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "第八次",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 84,
+					"fldName": "1978年12月18日至22日，（  ）作出了把全党工作的重点转移到社会主义现代化建设上来的战略决策，这是建国以来党的历史上具有深远意义的伟大转折。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "中共十一届三中全会",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "中共十一届六中全会",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "中共十二大",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 85,
+					"fldName": "中国共产党的三大优良作风是（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "理论联系实际，密切联系群众，批评和自我批评",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "谦虚谨慎、戒骄戒躁、艰苦奋斗",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "实事求是、群众路线、民主集中制",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 86,
+					"fldName": "我党召开七大时全国拥有党员（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "120万",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "130万",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "140万",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 87,
+					"fldName": "1948年9月12日至1949年1月31日，中国人民解放军先后进行了（  ）三大战役，共歼灭国民党军队154万人。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "辽沈、淮海、平津",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "济南、平津、淮海",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "辽沈、渡江、平津",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 88,
+					"fldName": "1949年3月，中共七届二中全会在（  ）举行。毛泽东在会上提出促进革命迅速取得全国胜利和组织这个胜利的各项方针，指出中国由农业国转变为工业国、由新民主主义社会转变到社会主义社会的发展方向。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "陕北米脂",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "河北西柏坡",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "陕北延安",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 89,
+					"fldName": "正式确定中国共产党的三大优良作风，即理论和实践相结合，密切联系群众、批评和自我批评，是（  ）在《论联合政府》中提出的。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "毛泽东",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "刘少奇",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "张闻天",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 90,
+					"fldName": "1949年4月21日，毛泽东和朱德总司令发布向全国进军的命令，中国人民解放军百万雄师强渡长江，（  ）占领国民党统治中心南京，宣告国民党反动统治的覆灭。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "4月23日",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "4月25日",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "4月22日",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 91,
+					"fldName": "1949年6月30日，毛泽东发表了（  ）的重要文章。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "《论联合政府》",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "《论人民民主专政》",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "《目前形势和我们的任务》",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 92,
+					"fldName": "为了解决台湾、香港、澳门的问题，实现祖国统一，邓小平创造性地提出“一国两制”的伟大构想。“一国两制”最早是针对（  ）提出的。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "香港",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "澳门",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "台湾",
+							"fldOptionIndex": 'C'
+						},
+						{
+							"fldOptionText": "钓鱼岛",
+							"fldOptionIndex": 'D'
+						}
+					]
+				},
+				{
+					"questionID": 93,
+					"fldName": "党的领导的主要内容是（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "政治领导、思想领导和组织领导",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "指引、服务、保证和协调",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "从群众中来，到群众中去",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 94,
+					"fldName": "《中国共产党党章》规定，党必须在（  ）和法律的范围内活动。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "准则",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "条例",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "宪法",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 95,
+					"fldName": "周恩来在三届人大一次会议上提出的四个现代化的内容是（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "现代农业、工业、交通运输业、国防",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "现代农业、工业、交通运输业、科学技术",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "现代农业、工业、国防、科学技术",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 96,
+					"fldName": "中国共产党选拔干部的原则是（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'C',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "革命化、年轻化、知识化、专业化",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "任人唯贤",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "德才兼备",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 97,
+					"fldName": "党的干部特别是领导干部处理党内关系要实行“（  ）”的原则。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'A',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "五湖四海",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "谦虚谨慎",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "严以律己",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 98,
+					"fldName": "（  ）最早提出“知识分子已经是工人阶级的一部分”观点。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "毛泽东",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "周恩来",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "刘少奇",
+							"fldOptionIndex": 'C'
+						},
+						{
+							"fldOptionText": "邓小平",
+							"fldOptionIndex": 'D'
+						}
+					]
+				},
+				{
+					"questionID": 99,
+					"fldName": "中国共产党党员的党龄，（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "从支部大会接收为预备党员之日算起",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "从预备期满转为正式党员之日算起",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "从上级党委批准为预备党员之日算起",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
+				{
+					"questionID": 100,
+					"fldName": "当前及今后一个时期发展党员工作的方针是（  ）。",
+					"fldAnswer": null,
+					"questionType": 0,
+					"rightAnswer": 'B',
+					"QuestionOptionList": [
+						{
+							"fldOptionText": "成熟一个，发展一个",
+							"fldOptionIndex": 'A'
+						},
+						{
+							"fldOptionText": "坚持标准，保证质量，改善结构，慎重发展",
+							"fldOptionIndex": 'B'
+						},
+						{
+							"fldOptionText": "经过党的支部，坚持个别吸收",
+							"fldOptionIndex": 'C'
+						}
+					]
+				},
 			]
 		}
 	}

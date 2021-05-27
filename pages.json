@@ -3,7 +3,7 @@
 		{
 			"path":"pages/login/index",
 			"style": {
-				"navigationBarTitleText":"登陆"
+				"navigationBarTitleText":"登录"
 			}
 		},{
 			"path": "pages/tab3/index",
